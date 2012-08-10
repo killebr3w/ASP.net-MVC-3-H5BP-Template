@@ -1,0 +1,73 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>H5BP</Name>
+    <Description>ASP.net MVC 3 with HTML5 Boilerplate</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>H5BP</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Web.csproj" File="Web.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="404.html">404.html</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="apple-touch-icon-114x114-precomposed.png">apple-touch-icon-114x114-precomposed.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="apple-touch-icon-57x57-precomposed.png">apple-touch-icon-57x57-precomposed.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="apple-touch-icon-72x72-precomposed.png">apple-touch-icon-72x72-precomposed.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="apple-touch-icon-precomposed.png">apple-touch-icon-precomposed.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="apple-touch-icon.png">apple-touch-icon.png</ProjectItem>
+      <Folder Name="Content" TargetFolderName="Content">
+        <Folder Name="css" TargetFolderName="css">
+          <ProjectItem ReplaceParameters="true" TargetFileName="style.css">style.css</ProjectItem>
+        </Folder>
+        <Folder Name="img" TargetFolderName="img" />
+      </Folder>
+      <Folder Name="Controllers" TargetFolderName="Controllers" />
+      <ProjectItem ReplaceParameters="true" TargetFileName="crossdomain.xml">crossdomain.xml</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="favicon.ico">favicon.ico</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax">Global.asax</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax.cs">Global.asax.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="humans.txt">humans.txt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="index.html">index.html</ProjectItem>
+      <Folder Name="Models" TargetFolderName="Models" />
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="robots.txt">robots.txt</ProjectItem>
+      <Folder Name="Scripts" TargetFolderName="Scripts">
+        <Folder Name="libs" TargetFolderName="libs">
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.7.2.min.js">jquery-1.7.2.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.unobtrusive-ajax.js">jquery.unobtrusive-ajax.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.unobtrusive-ajax.min.js">jquery.unobtrusive-ajax.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate-vsdoc.js">jquery.validate-vsdoc.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.js">jquery.validate.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.min.js">jquery.validate.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.unobtrusive.js">jquery.validate.unobtrusive.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.unobtrusive.min.js">jquery.validate.unobtrusive.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="modernizr-2.5.3.min.js">modernizr-2.5.3.min.js</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="plugins.js">plugins.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="script.js">script.js</ProjectItem>
+      </Folder>
+      <Folder Name="Views" TargetFolderName="Views">
+        <ProjectItem ReplaceParameters="false" TargetFileName="_ViewStart.cshtml">_ViewStart.cshtml</ProjectItem>
+        <Folder Name="Shared" TargetFolderName="Shared">
+          <ProjectItem ReplaceParameters="false" TargetFileName="_Layout.cshtml">_Layout.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Error.cshtml">Error.cshtml</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="web.config">web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="WebOrg.config">WebOrg.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="WebOrg.Debug.config">WebOrg.Debug.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="WebOrg.Release.config">WebOrg.Release.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
